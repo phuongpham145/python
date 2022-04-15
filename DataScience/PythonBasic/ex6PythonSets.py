@@ -1,0 +1,25 @@
+s = {11, 2, 3, 'hello', 2, 3, (1, 23), True, (1, 23)}
+print(s)
+list = [1, 2, 3, 1, 2, 3, 5]
+s = set(list)
+print(s)
+print(len(s))
+s.add(11)
+print(s)
+s.remove(11)
+print(s)
+print((False) in s)
+list1 = [1, 2, 3, 4, 5]
+list2 = [3, 4, 5, 6, 7, 8]
+s1 = set(list1)
+s2 = set(list2)
+print(s1)
+print(s2)
+print(s1 & s2)
+print(s1.difference(s2))
+print(s1.intersection(s2))
+print(s1.union(s2))
+print(set([1, 2, 3, 4, 5]).issuperset(s1))
+print(set([2, 3]).issubset(s2))
+print(set([2, 3]).issubset(s1))
+print(sum(s1))

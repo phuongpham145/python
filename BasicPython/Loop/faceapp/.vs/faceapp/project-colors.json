@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "db30e933-1c8d-43f0-9ffb-a39f886fe8e0": {
+      "ProjectGuid": "db30e933-1c8d-43f0-9ffb-a39f886fe8e0",
+      "DisplayName": "faceapp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
